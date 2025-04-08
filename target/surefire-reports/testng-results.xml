@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-07T17:43:44 IST" name="Command line suite" finished-at="2025-04-07T17:44:03 IST" duration-ms="18722">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@7ee955a8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-04-07T17:43:44 IST" name="Command line test" finished-at="2025-04-07T17:44:03 IST" duration-ms="18722">
+      <class name="cucumberOptions.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@7ee955a8]" started-at="2025-04-07T17:43:44 IST" name="setUpClass" finished-at="2025-04-07T17:43:45 IST" duration-ms="988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ed38226]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@7ee955a8]" started-at="2025-04-07T17:43:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-07T17:44:01 IST" duration-ms="16207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add more quantity of product and add to cart and place order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add items to cart and place the order"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@7ee955a8]" started-at="2025-04-07T17:43:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-07T17:44:02 IST" duration-ms="17152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add more quantity of product and add to cart and place order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add items to cart and place the order"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@7ee955a8]" started-at="2025-04-07T17:44:02 IST" name="tearDownClass" finished-at="2025-04-07T17:44:03 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestNGTestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
